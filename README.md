@@ -8,6 +8,22 @@ AI 面试助手是一款面向 Windows 的实时面试辅助工具。它能够�
 - 在不遮挡面试界面的前提下查看问题和回答。
 - 将音频、识别、模型调用等耗时任务与界面线程隔离，保持操作流畅。
 
+## 下载与安装
+
+Windows 安装包请前往 GitHub Releases 下载：
+
+[下载最新安装包](https://github.com/subNN/ai_interview/releases/latest)
+
+快速开始：
+
+1. 在 Releases 页面下载 `AI-Interview-Assistant-Setup-*.exe`。
+2. 运行安装程序，按向导完成安装。
+3. 从桌面或开始菜单启动“AI 面试助手”。
+4. 首次启动时配置音频来源、语音识别和 AI 模型。
+5. 点击“开始监听”，即可一键进入实时面试辅助模式。
+
+后续启动无需重新配置环境，直接打开桌面快捷方式即可使用。
+
 ## 主要功能
 
 | 模块 | 功能 |
@@ -58,7 +74,7 @@ flowchart LR
 ## 从源码运行
 
 ```powershell
-git clone <your-repository-url>
+git clone https://github.com/subNN/ai_interview.git
 cd ai_interview
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
