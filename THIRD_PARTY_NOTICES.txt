@@ -1,0 +1,37 @@
+AI Interview Assistant - Third-party notices
+
+Qt / PySide6
+- Project: https://www.qt.io/
+- License: LGPLv3 / GPLv3 / commercial, depending on distribution
+- This application dynamically uses PySide6 wheels. Review Qt licensing
+  obligations before distributing a commercial package.
+
+Lucide icons
+- Project: https://lucide.dev/
+- License: ISC
+- Selected SVG path data is embedded in the application source.
+
+OpenAI Python SDK
+- Project: https://github.com/openai/openai-python
+- License: Apache-2.0
+
+NumPy
+- License: BSD-3-Clause
+
+sounddevice
+- License: MIT
+
+PyAudioWPatch
+- License: MIT
+
+faster-whisper
+- License: MIT
+
+pdfplumber
+- License: MIT
+
+keyring
+- License: MIT
+
+pyttsx3
+- License: MPL-2.0
